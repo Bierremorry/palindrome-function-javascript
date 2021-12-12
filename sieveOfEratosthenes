@@ -1,0 +1,17 @@
+function sieveOfEratosthenes(number){
+
+for(let n=2; n<=2^64; n++){
+let flag=0;
+for(let number=2; n<number; number++)
+if(n%number==0){
+
+flag=1;
+break;
+}
+}
+If (n>1&&flag==0)
+ console.log(n);
+}
+
+const number= prompt("enter number");
+	sieveOfEratosthenes(number);
