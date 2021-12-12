@@ -1,0 +1,18 @@
+
+function Palindrome(string){
+    const arrayValues=string.split('');
+    const reverseArrayValues=arrayValues.reverse();
+    const reverseString=reverseArrayValues.join('');
+    if(string==reverseString){
+    console.log("it palindrome");
+}
+else {
+    console.log("its is not a palindrome");
+}
+
+    
+    }
+	const string= prompt("enter string");
+	Palindrome(string);
+    
+
